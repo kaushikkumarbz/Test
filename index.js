@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const User = require('./model/User');
 const listingsAndReviews = require('./model/listingsAndReviews')
-const dbURI = "mongodb+srv://Reddy:1234@cluster0.56tv7.mongodb.net/sample_airbnb?retryWrites=true&w=majority"
+const dbURI = "xyz"
 
 mongoose
     .connect(dbURI, {
@@ -19,3 +19,7 @@ setTimeout(async () => {
     console.log(data);
     
 }, 5000);
+
+
+
+// https://github.com/kaushikkumarbz/Test
